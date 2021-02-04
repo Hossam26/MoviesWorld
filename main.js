@@ -188,6 +188,10 @@ $(window).resize(function() {
    if(window.outerWidth>600){
     $(".mylist").animate({"top":"100%","visibility":"hidden"},1000)
    }
+   else{
+    $(".mylist").animate({"top":"0%","visibility":"visible"},0)
+
+   }
   })
   $(".change i").removeClass("fa-times")
  
