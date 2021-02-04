@@ -42,6 +42,9 @@ input{
 .aa h3{
    top: 0 !important;
 }
+.txt-color{
+    color: #dc3545;
+}
 .layer{
     opacity: 0;
     width: 100%;
@@ -77,8 +80,8 @@ input{
 }
 .options .btns{
     justify-content: space-evenly;
-    margin-top: 2rem;
-}
+    
+ }
 .options .btn{
  border: 1px solid grey;
  color: grey;
@@ -174,7 +177,7 @@ color: white;
         padding-right: 0.5rem;
     }
     .movie{
-      margin-left: 45px;
+      margin-left: 48px;
     }
     .mylist{
         visibility:visible;
