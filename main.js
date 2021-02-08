@@ -76,7 +76,7 @@ function displayMovies(results){
         <div class="layer w-100">
           <h2>${results[i].original_title}</h2>
           <p>${results[i].overview}</p>
-          <h5>rate:${results[i].vote_average}</h5>
+          <h5>rate:${results[i].vote_average}/10</h5>
           <h6>${results[i].release_date}</h6>
         </div>
       </div>
@@ -104,7 +104,7 @@ function displayShows(results){
       <div class="layer w-100">
         <h2>${results[i].original_name}</h2>
         <p>${results[i].overview}</p>
-        <h5>rate:${results[i].vote_average}</h5>
+        <h5>rate:${results[i].vote_average}/10</h5>
         <h6>${results[i].first_air_date}</h6>
       </div>
     </div>
